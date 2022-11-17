@@ -37,4 +37,4 @@ When  the robot decides to  charge,  action charge always takes the robot to the
 
 
 
-
+## MDP modeling
