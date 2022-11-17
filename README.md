@@ -1,9 +1,6 @@
 # Advanced-AI
- 
-
-
-Dead line : 11 nov for both groups (note book + report describing your mdp, including a drawing)
-
+ Here is about to understand how work Markov Decision Process (MDP ) to make decisions for an AI.
+ All about MDP : https://pymdptoolbox.readthedocs.io/en/latest/index.html
  # Subject
 Consider a house-cleaning robot. It can be either in the living room or at its charging station - or out  of battery. 
 The living room can be clean or dirty. So there are five states: LD(in the living room, dirty), LC(in the living room, clean), CD(at the charger, dirty), CC(at the charger, clean), O (out of power).
