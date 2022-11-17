@@ -65,3 +65,12 @@ Charging in a dirty charging room leads to a dirty charging room because the dir
 
 * O
   * When the robot is out of battery, it can not make a decision. So in this case, either deciding to charge or clean leads to the same state O.
+
+
+## How to run the project 
+* The first file mdptp is an example to understand how work MDP ( Markov Decision Process ). You could check it for more details.
+* The second one is all about described above and to run it, you need to be install : 
+  * mdptoolbox. Here is how to fix it : https://pymdptoolbox.readthedocs.io/en/latest/index.html
+  * all python extensions such as numpy
+        
+
