@@ -47,7 +47,7 @@ When  the robot decides to  charge,  action charge always takes the robot to the
 Firstly, from any state, two actions are possible and when one is chosen, the other one is 
 not
 .
- LD,
+ #### LD,
  When the robot chooses to clean, either it’s gonna be out of power with the probability e or it fails with eps or it does not neither fail nor goes out of power and logically gonna succeed the cleaning with ( 1 - e - eps ) .
 If it chooses to charge, it’s going to the dirty charger state because it’s coming from a dirty one. And this is for sure ( probability of 1 ).
 LC
