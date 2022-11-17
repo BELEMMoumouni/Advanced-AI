@@ -38,3 +38,7 @@ When  the robot decides to  charge,  action charge always takes the robot to the
 
 
 ## MDP modeling
+
+
+![Cleaning robot BELEM Moumouni drawio-Page-1 drawio](https://user-images.githubusercontent.com/90107382/202426095-3961daa7-7070-496d-9fbc-7b26d5087297.png)
+
