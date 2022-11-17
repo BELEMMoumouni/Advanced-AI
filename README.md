@@ -55,8 +55,8 @@ As the logic with LD,if it decides to clean,  either it is going to  O with e or
 Deciding to charge  can just lead to CC because it is going to clean the charger room. No possibility to go elsewhere.
 
 * CD
-Cleaning leads to a clean room if it succeeds or staying in a dirty one if not. 
-As in LD, either it goes in LD with a probability of failure which is eps or succeeds and in this case, goes in LC with ( 1 - eps ). The difference with LD is that here, even if it fails, it just has one choice which is LD.
+   * Cleaning leads to a clean room if it succeeds or staying in a dirty one if not. 
+   * As in LD, either it goes in LD with a probability of failure which is eps or succeeds and in this case, goes in LC with ( 1 - eps ). The difference with LD is that here, even if it fails, it just has one choice which is LD.
 Charging in a dirty charging room leads to a dirty charging room because the dirtiness of the room is still going to be the same.
 
 * CC
