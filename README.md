@@ -28,7 +28,7 @@ The reward for being out of power is  costcrash  -  lower or equal to rd ; let u
 ####  
 
 When  the robot decides to  clean,
-*  if it is in the living room, then it may become out of power with proba e
+**  if it is in the living room, then it may become out of power with proba e
 *  if it is in the charging station, no risk of running out of power   
 *  cleaning a clean floor leaves it clean
 *  cleaning a dirty floor can sometimes fail (even is battery is ok) - let eps be the probability of fail of the cleaning
@@ -47,21 +47,21 @@ When  the robot decides to  charge,  action charge always takes the robot to the
 Firstly, from any state, two actions are possible and when one is chosen, the other one is 
 not
 .
- #### LD,
+ * LD,
  When the robot chooses to clean, either it’s gonna be out of power with the probability e or it fails with eps or it does not neither fail nor goes out of power and logically gonna succeed the cleaning with ( 1 - e - eps ) .
 If it chooses to charge, it’s going to the dirty charger state because it’s coming from a dirty one. And this is for sure ( probability of 1 ).
-LC
+* LC
 As the logic with LD,if it decides to clean,  either it is going to  O with e or back to LC with ( 1 - e) because, even though it fails, the room is gonna remain clean.
 Deciding to charge  can just lead to CC because it is going to clean the charger room. No possibility to go elsewhere.
 
-CD
+* CD
 Cleaning leads to a clean room if it succeeds or staying in a dirty one if not. 
 As in LD, either it goes in LD with a probability of failure which is eps or succeeds and in this case, goes in LC with ( 1 - eps ). The difference with LD is that here, even if it fails, it just has one choice which is LD.
 Charging in a dirty charging room leads to a dirty charging room because the dirtiness of the room is still going to be the same.
 
-CC
+* CC
 Cleaning in a clean room leads to a clean room. The only possible state is LC.
 By charging, it could make the charging room dirty with pDUST so it could lead it to CD or not and stay in CC with ( 1 - pDust ).
 
-O
+* O
 When the robot is out of battery, it can not make a decision. So in this case, either deciding to charge or clean leads to the same state O.
