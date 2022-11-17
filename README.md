@@ -1,9 +1,10 @@
 # Advanced-AI
  
- #Subject
+
 
 Dead line : 11 nov for both groups (note book + report describing your mdp, including a drawing)
 
+ # Subject
 Consider a house-cleaning robot. It can be either in the living room or at its charging station - or out  of battery. 
 The living room can be clean or dirty. So there are five states: LD(in the living room, dirty), LC(in the living room, clean), CD(at the charger, dirty), CC(at the charger, clean), O (out of power).
 
@@ -33,3 +34,7 @@ When  the robot decides to  clean,
 *  cleaning a dirty floor can sometimes fail (even is battery is ok) - let eps be the probability of fail of the cleaning
      
 When  the robot decides to  charge,  action charge always takes the robot to the charging station. The  dirtiness of the room can go from clean to dirty with a probability  pDust  and it stays for sure at the dirty level if dirty
+
+
+
+
